@@ -1,0 +1,104 @@
+
+figure{
+	margin: 0;
+}
+body{
+	background-color: navy;
+}
+nav{
+	background-color: navy;
+	height: 80px;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+}
+nav ul li{ 
+	display: inline-block;
+}
+nav ul li a{
+	display: block;
+	padding: 10px 45px;
+    background-color: white;
+    font-size: 1.5em;
+ }
+.wrapper{
+	background-color: lightblue;
+	margin: 80px auto;
+	width: 97%;
+}
+header{
+	min-height: 100vh;
+	overflow: auto;
+	padding: 15px;
+}
+header article{
+	float: left;
+	width: 45%;
+}
+header h1{
+   font-size: 45px;
+   padding-top: 20px;
+}
+header figure{
+	float: right;
+	width: 45%;
+	/*margin: 0;*/
+}
+header figure img{
+	border: 1px solid black;
+	border-radius: 50%;
+	width: 100%;
+}
+section{
+	min-height: 100vh;
+	padding-top: 80px;
+	padding-left: 10px;
+}
+section:nth-child(even){
+    background-color: white;
+}
+#about article{
+	float: left;
+	width: 45%;	
+}
+#about figure{
+	padding-top: 30px;
+	float: right;
+	width: 45%;
+}
+#about img{
+	width: 100%;
+}
+#sandwich article{
+	display: inline-block;
+	width: 23%;
+	background-color: lightblue;
+	padding: 5px 21px;
+	margin: 5px 21px;
+	overflow: auto;
+	vertical-align: top;
+}
+#sandwich figure{
+	width: 90%;
+	height: 90%;
+}
+#sandwich figure img{
+	height: 90%;
+	width: 90%;
+}
+#crew article{
+	display: inline-block;
+	width: 375px;
+	padding: 0 20px;
+}
+#crew article p img{
+	width: 200px;
+	float: left;
+	margin: 0 10px;
+}
+footer{
+	background-color: white;
+}
+footer ul{
+	list-style-type: none;
+}
